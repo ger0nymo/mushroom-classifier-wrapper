@@ -20,7 +20,7 @@ Having chosen YOLOv8 for its superior performance, the next step was implementin
 To complement the backend, I designed a mobile app for user convenience. Leveraging my prior experience, I chose Flutter for its cross-platform capabilities. Utilizing BLoC state management, I crafted a clean and sophisticated user interface. The mobile app enables users to capture images, sending them to the backend for predictions through the trained model.
 
 ## Conclusion:
-With the completion of the Flutter app, the mushroom classifier project has reached its culmination. Users can effortlessly capture images through the mobile app and receive accurate predictions from the trained model. While not intended for production use, the achieved accuracy of over 90% makes it a successful venture in the realm of machine learning and mobile application development.
+In summary, the mushroom classifier project has reached its conclusion with the integration of the Flutter app. Users can easily capture images through the mobile app and receive accurate-enough predictions from the trained model. Although not intended for production use, the attained accuracy makes it able to see the goal of the project.
 
 ## Subproject-repositories:
 * YOLOv8 model training: https://colab.research.google.com/drive/1ipBfcB8x8-KU1yH657FNenfYG_HH29Z8
