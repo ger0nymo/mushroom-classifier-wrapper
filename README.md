@@ -11,7 +11,7 @@ After converting it to the correct format, I resplit them so that 85% of the ima
 With minimal machine learning knowledge, I delved into object detection and classification. My first attempt involved building a custom model using TensorFlow. Although the process was straightforward, the model's output yielded only a 40% accuracy on the validation dataset, far from satisfactory for this project's standards.
 
 ## Shift to Existing Models:
-Undeterred, I shifted my focus to existing classification models. Detectron2, an initial choice, faced dependency version conflicts on Colab, prompting me to explore alternatives. The contenders were EfficientNetV2 and YOLOv8. While EfficientNetV2 reached a 70% accuracy, YOLOv8 outperformed it with a top1 accuracy of 90% and a top5 accuracy exceeding 98%.
+Undeterred, I shifted my focus to existing classification models. Detectron2, an initial choice, faced dependency version conflicts on Colab, prompting me to explore alternatives. The contenders were EfficientNetV2 and YOLOv8. While EfficientNetV2 reached a 70% accuracy, YOLOv8 outperformed it with a top1 accuracy of 90% and a top5 accuracy exceeding 98% on the validation dataset.
 
 ## Model Implementation and Backend Development:
 Having chosen YOLOv8 for its superior performance, the next step was implementing the trained model. I opted for Flask, a Python-based backend technology, to set up an HTTP endpoint. This endpoint receives image inputs from a frontend, runs predictions using the model, and sends the results back to the client. The backend's simplicity and compatibility made it an ideal choice for seamless integration.
