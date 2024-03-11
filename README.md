@@ -5,7 +5,7 @@ Embarking on a college project, I found inspiration in a mushroom image dataset 
 
 ## Dataset Exploration:
 The dataset, comprising around 7000 labeled images, initially posed a challenge as it was formatted for object detection. To make it suitable for training classification models, I converted it by utilizing the COCO-formatted JSON. This involved creating subdirectories for 21 mushroom genera, each containing the relevant images. 
-After converting it to the correct format, I resplit them so that 85% of the images would be used for training purposes, leaving 15% for validation or testing.
+After converting it to the correct format, I resplit them so that 80% of the images would be used for training purposes, leaving 20% for validation or testing.
 
 ## Model Training Attempts:
 With minimal machine learning knowledge, I delved into object detection and classification. My first attempt involved building a custom model using TensorFlow. Although the process was straightforward, the model's output yielded only a 40% accuracy on the validation dataset, far from satisfactory for this project's standards.
