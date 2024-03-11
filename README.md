@@ -27,6 +27,6 @@ With the completion of the Flutter app, the mushroom classifier project has reac
 * Flutter frontend: https://github.com/ger0nymo/mushroom-classifier-frontend
 
 ### Resources:
-Tensorflow: https://www.tensorflow.org/
-Dataset: https://universe.roboflow.com/mushroom28/mushroom-nksu4/dataset/6
-YOLOv8 documentation: https://github.com/ultralytics/ultralytics
+* Tensorflow: https://www.tensorflow.org/
+* Dataset: https://universe.roboflow.com/mushroom28/mushroom-nksu4/dataset/6
+* YOLOv8 documentation: https://github.com/ultralytics/ultralytics
