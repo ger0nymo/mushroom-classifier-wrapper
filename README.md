@@ -20,3 +20,8 @@ To complement the backend, I designed a mobile app for user convenience. Leverag
 
 ## Conclusion:
 With the completion of the Flutter app, the mushroom classifier project has reached its culmination. Users can effortlessly capture images through the mobile app and receive accurate predictions from the trained model. While not intended for production use, the achieved accuracy of over 90% makes it a successful venture in the realm of machine learning and mobile application development.
+
+### Subproject-repositories:
+* YOLOv8 model training: https://colab.research.google.com/drive/1ipBfcB8x8-KU1yH657FNenfYG_HH29Z8
+* Flask backend: https://github.com/ger0nymo/mushroom-classifier-backend
+* Flutter frontend: https://github.com/ger0nymo/mushroom-classifier-frontend
