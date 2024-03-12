@@ -4,7 +4,7 @@
 Embarking on a college project, I found inspiration in a mushroom image dataset while exploring public Kaggle datasets. The challenge was intriguing: to classify mushrooms using machine learning. Armed with Google Colab Premium's robust GPU support, including Tesla T4 and NVIDIA A100, I aimed to expedite the training process for my models, which proved to be immensely beneficial.
 
 ## Dataset Exploration:
-The dataset, comprising around 7000 labeled images, initially posed a challenge as it was formatted for object detection. To make it suitable for training classification models, I converted it by utilizing the COCO-formatted JSON. This involved creating subdirectories for 21 mushroom genera, each containing the relevant images. 
+The dataset, comprising around 7000 labeled images, initially posed a challenge as it was formatted for object detection. To make it suitable for training classification models, I wrote a python script that used the COCO-formatted JSON to create subdirectories for each class and put the images in them accordingly.
 After converting it to the correct format, I resplit them so that 80% of the images would be used for training purposes, leaving 20% for validation or testing.
 
 ## Model Training Attempts:
